@@ -1,1 +1,155 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T09:35:59.527Z" agent="5.0 (X11)" version="20.7.2" etag="zDJrwAiNG3bBRjP8kUQQ" type="github"><diagram id="q89zbrPHtfedJiPV_HT-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-16T10:18:39.569Z" agent="5.0 (X11)" version="20.7.2" etag="XdCJdtJPRPrkA3wVDPpJ" type="github">
+  <diagram id="0G_OzD9C__RH9Z6z5cDZ" name="Page-1">
+    <mxGraphModel dx="974" dy="342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iFc952ehM7riWOwZevtt-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-2" target="iFc952ehM7riWOwZevtt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-2" value="Nutzer öffnet Code Aufgabe. &lt;br&gt;&lt;br&gt;Moodle Server sendet POST an API. &lt;br&gt;/open/[martikel-nummer]/[aufgaben-id]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-6" target="iFc952ehM7riWOwZevtt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-12" value="nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iFc952ehM7riWOwZevtt-11">
+          <mxGeometry x="-0.3408" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-6" target="iFc952ehM7riWOwZevtt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-15" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iFc952ehM7riWOwZevtt-14">
+          <mxGeometry x="-0.2784" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-6" value="Existiert bereits Instanz mit martikel-nummer &amp;amp; aufgaben-id" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="362.5" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-10" value="code-server docker mit aufgaben-id clonen" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-13" target="iFc952ehM7riWOwZevtt-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-13" value="iframe mit code-server öffnen" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-10" target="iFc952ehM7riWOwZevtt-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="620" as="sourcePoint" />
+            <mxPoint x="490" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-20" target="iFc952ehM7riWOwZevtt-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-28" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iFc952ehM7riWOwZevtt-27">
+          <mxGeometry x="-0.2154" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-20" value="&quot;Abgabe&quot; gedrückt" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="387.5" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-20" target="iFc952ehM7riWOwZevtt-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="370" as="sourcePoint" />
+            <mxPoint x="600" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="360" />
+              <mxPoint x="640" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-25" value="Nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iFc952ehM7riWOwZevtt-23">
+          <mxGeometry x="0.0462" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-26" target="iFc952ehM7riWOwZevtt-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-26" value="Code dir wird in neuen docker mounted &amp;amp; dort ausgeführt." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="560" width="138.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-32" value="Ergebnis wird dann an Moodle geschickt" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="614.06" y="715" width="130.63" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-34" target="iFc952ehM7riWOwZevtt-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-34" value="Nutzer öffnet Code Aufgabe. &lt;br&gt;&lt;br&gt;JS sendet heartbeat an docker server. &lt;br&gt;&lt;br&gt;/heartbeat/[martikel-nummber]/[aufgaben-id]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-36" value="Wenn &amp;gt; 1min kein heartbeat gesendet wurde. Wird docker angehalten." style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1080" width="160" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-38" target="iFc952ehM7riWOwZevtt-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-38" value="Setup new Task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1320" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-40" target="iFc952ehM7riWOwZevtt-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-46" value="ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iFc952ehM7riWOwZevtt-45">
+          <mxGeometry x="-0.2929" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-40" target="iFc952ehM7riWOwZevtt-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-51" value="nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iFc952ehM7riWOwZevtt-50">
+          <mxGeometry x="-0.2477" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-40" value="Existiert bereits Instanz mit task-id?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-44" target="iFc952ehM7riWOwZevtt-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-44" value="iframe laden" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-49" target="iFc952ehM7riWOwZevtt-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-49" value="default template clonen" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-54" target="iFc952ehM7riWOwZevtt-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-54" value="&quot;Speichern&quot; gedrückt" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="653.75" y="1452.5" width="95" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iFc952ehM7riWOwZevtt-54" target="iFc952ehM7riWOwZevtt-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="713.75" y="1430" as="sourcePoint" />
+            <mxPoint x="623.75" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="743.75" y="1420" />
+              <mxPoint x="663.75" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-56" value="Nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iFc952ehM7riWOwZevtt-55">
+          <mxGeometry x="0.0462" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iFc952ehM7riWOwZevtt-60" value="neues template erstellen, welches später für tasks gecloned werden kann" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="621.87" y="1630" width="158.75" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
